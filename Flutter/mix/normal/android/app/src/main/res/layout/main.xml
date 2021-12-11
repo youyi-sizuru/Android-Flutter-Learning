@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/newEngineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="每次创建一个新flutter引擎" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cacheEngineButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="利用缓存的flutter引擎" />
+</LinearLayout>
